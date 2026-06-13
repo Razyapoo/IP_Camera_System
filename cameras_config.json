@@ -1,0 +1,96 @@
+{
+  "cameras": [
+    {
+      "id": 1,
+      "name": "Camera 1",
+      "brand": "auto",
+      "host": "10.6.34.11",
+      "port": 554,
+      "user": "admin",
+      "password": "1a2S",
+      "channel": 1,
+      "stream": "1",
+      "format": "auto"
+    },
+    {
+      "id": 2,
+      "name": "Camera 2",
+      "brand": "auto",
+      "host": "10.6.34.12",
+      "port": 554,
+      "user": "admin",
+      "password": "1a2S",
+      "channel": 1,
+      "stream": "1",
+      "format": "auto"
+    },
+    {
+      "id": 3,
+      "name": "Camera 3",
+      "brand": "auto",
+      "host": "10.6.34.13",
+      "port": 554,
+      "user": "admin",
+      "password": "1a2S",
+      "channel": 1,
+      "stream": "1",
+      "format": "auto"
+    },
+    {
+      "id": 4,
+      "name": "Camera 4",
+      "brand": "auto",
+      "host": "10.6.33.11",
+      "port": 554,
+      "user": "admin",
+      "password": "1a2S",
+      "channel": 1,
+      "stream": "1",
+      "format": "auto"
+    },
+    {
+      "id": 5,
+      "name": "Camera 5",
+      "brand": "auto",
+      "host": "10.6.33.12",
+      "port": 554,
+      "user": "admin",
+      "password": "1a2S",
+      "channel": 1,
+      "stream": "1",
+      "format": "auto"
+    },
+    {
+      "id": 6,
+      "name": "Camera 6",
+      "brand": "auto",
+      "host": "10.6.33.13",
+      "port": 554,
+      "user": "admin",
+      "password": "1a2S",
+      "channel": 1,
+      "stream": "1",
+      "format": "auto"
+    },
+    {
+      "id": 7,
+      "name": "Camera 7",
+      "brand": "auto",
+      "host": "10.6.33.14",
+      "port": 554,
+      "user": "admin",
+      "password": "1a2S",
+      "channel": 1,
+      "stream": "1",
+      "format": "auto"
+    }
+  ],
+  "grid_resolution": [
+    640,
+    360
+  ],
+  "idle_timeout": 600,
+  "motion_threshold": 5000,
+  "fullscreen": true,
+  "window_title": "Cameras"
+}
