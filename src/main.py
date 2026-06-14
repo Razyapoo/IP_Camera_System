@@ -9,10 +9,10 @@ import cv2
 import numpy as np
 
 # Import our custom modules
-from config import ConfigManager
-from camera import Camera
-from motion import MotionDetector
-from ui import AppUI, get_screen_resolution
+from src.config import ConfigManager
+from src.camera import Camera
+from src.motion import MotionDetector
+from src.ui import AppUI, get_screen_resolution
 
 logger = logging.getLogger("Main")
 

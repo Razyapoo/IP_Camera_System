@@ -5,7 +5,7 @@ Delegates execution to the new modular, multi-threaded main.py application.
 """
 import sys
 import logging
-from main import CameraSystemApp, setup_signal_handlers
+from src.main import CameraSystemApp, setup_signal_handlers
 
 if __name__ == '__main__':
     # Initialize standard logging configuration

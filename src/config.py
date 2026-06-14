@@ -18,7 +18,7 @@ class ConfigManager:
     """Manages application configurations and provides atomic update capabilities."""
     def __init__(self, config_path=None):
         if config_path is None:
-            self.config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cameras_config.json')
+            self.config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'cameras_config.json')
         else:
             self.config_path = config_path
             
